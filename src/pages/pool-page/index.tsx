@@ -97,7 +97,7 @@ const PoolPage = () => {
                 value={noiseLevel}
                 onChange={(e) => setNoiseLevel(Number(e.target.value))}
               />
-              <NoiseLevel>{noiseLevel}</NoiseLevel>
+              <NoiseLevel>{noiseLevel}%</NoiseLevel>
             </NoiseContainer>
           </InputWrapper>
 
